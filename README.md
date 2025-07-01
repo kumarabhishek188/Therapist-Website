@@ -10,7 +10,6 @@ Live Demo: [Click here](https://dr-therapist-website.vercel.app/)
 
 - 🧠 Clean and minimal design tailored for therapy services
 - 📱 Fully responsive on mobile, tablet, and desktop
-- 🎨 Light and dark mode support
 - 📬 Contact form with EmailJS integration
 - 🧭 Smooth scrolling navigation
 - ⚡️ Optimized performance (Next.js build)
@@ -23,6 +22,6 @@ Live Demo: [Click here](https://dr-therapist-website.vercel.app/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Email Handling:** [EmailJS](https://www.emailjs.com/)
 - **Icons:** [Lucide React](https://lucide.dev/)
-- **Hosting:** Vercel (recommended)
+- **Hosting:** Vercel
 
 ---
