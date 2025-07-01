@@ -43,8 +43,8 @@ export default function ContactSection() {
             if (Object.keys(errors).length === 0) {
               try {
                 await emailjs.send(
-                  process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-                  process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+                  process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+                  process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
                   {
                     name: data.get('name'),
                     phone: data.get('phone'),
